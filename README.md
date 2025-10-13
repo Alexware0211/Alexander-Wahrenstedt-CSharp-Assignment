@@ -14,7 +14,7 @@
   
 * Implementera en funktion som sparar alla produkter i listan till en textfil. Filen ska innehålla produktinformation som finns i listan och vara sparat i .json-format.  $${\color{green}✓}$$
   
-* Skapa enhetstest för att säkerställa att en produkt läggs till i lista.
+* Skapa enhetstest för att säkerställa att en produkt läggs till i lista. $${\color{green}✓}$$
   
 * Ja du får skriva allt i Program.cs om du så vill. Men jag rekommenderar att du använder dig av olika services för att genomföra detta.
   
