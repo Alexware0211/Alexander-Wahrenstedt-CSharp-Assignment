@@ -1,7 +1,7 @@
 ﻿using Infrastructure.Models;
 namespace Infrastructure.Interfaces;
 
-public interface IProductResult
+public interface IProductService
 {
     ProductResult AddProductToList(Product product);
 
