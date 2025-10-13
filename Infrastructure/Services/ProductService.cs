@@ -39,6 +39,8 @@ public class ProductService : IProductService
 
     public ProductResult<IEnumerable<Product>> GetAllProducts()
     {
-        throw new NotImplementedException();
+        return _productList.Count > 0
+            ? new ProductResult<IEnumerable<Product>> { Success = true, Content = _productList }
+            : new ProductResult<IEnumerable<Product>> { Success = false, ErrorMessage = "No products found." };
     }
 }
