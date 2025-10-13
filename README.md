@@ -10,7 +10,7 @@
   
 * Implementera en funktion som visar alla produkter i listan med ID, namn och pris.  $${\color{green}✓}$$
   
-* Implementera en funktion som läser in produkter från en tidigare sparad textfil och lägger till dem i listan.
+* Implementera en funktion som läser in produkter från en tidigare sparad textfil och lägger till dem i listan. $${\color{green}✓}$$
   
 * Implementera en funktion som sparar alla produkter i listan till en textfil. Filen ska innehålla produktinformation som finns i listan och vara sparat i .json-format.  $${\color{green}✓}$$
   
