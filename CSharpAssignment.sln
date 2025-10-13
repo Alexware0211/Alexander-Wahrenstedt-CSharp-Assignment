@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationConsoleApp", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EB663D01-2EC1-401E-B5C5-C652AF21E20B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastrucure.Tests", "Infrastrucure.Tests\Infrastrucure.Tests.csproj", "{1AF8EF07-4926-446B-B608-176836BC500A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "Infrastrucure.Tests\Infrastructure.Tests.csproj", "{1AF8EF07-4926-446B-B608-176836BC500A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
