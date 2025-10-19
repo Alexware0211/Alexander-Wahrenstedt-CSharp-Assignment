@@ -1,5 +1,6 @@
 ﻿using Infrastructure.Interfaces;
 using Infrastructure.Models;
+using Infrastructure.Helpers;
 using Infrastructure.Services;
 
 namespace PresentationConsoleApp;
@@ -18,6 +19,8 @@ public class MenuService
     public void AddMenuOption()
     {
         var product = new Product();
+
+        product.Id = UniqueIdGenerator.GenerateID();
 
         Console.Write("Product Name.	");
         var name = Console.ReadLine();
@@ -56,6 +59,7 @@ public class MenuService
         {
             foreach (var product in products)
             {
+                Console.WriteLine($"ID: {product.Id}");
                 Console.WriteLine($"Name: {product.Name}");
                 Console.WriteLine($"Price: {product.Price}");
             }
@@ -99,7 +103,7 @@ public class MenuService
 
     public void Run()
     {
-        //_productManager.GetAllProducts();
+        _productManager.GetAllProducts();
         MainMenu();
     }
 }
